@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Unicolombo</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./src/img/unicolombo_logo.png" alt="Unicolombo logo" id="logo" />
+        </header>
+        <main>
+            <h1 id="title">Registro de Estudiantes</h1>
+            <p class="student-info">Información del estudiante</p>
+            <form>
+                <section id="form-section">
+                    <label for="foto">Foto del Estudiante</label>
+                    <input type="file" id="foto" name="foto" accept="image/*">
+
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="age">Edad</label>
+                    <input type="number" id="age" name="age" required>
+
+                    <label for="university">Universidad</label>
+                    <input type="text" id="university" name="university" required>
+
+                    <label for="career">Carrera</label>
+                    <input type="text" id="career" name="career" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <input type="submit" value="Registrar">
+                </section>
+            </form>
+            <footer>
+                <p><span>&copy;</span> 2024/09/09 (Jean Galvis). Todos los derechos reservados.</p>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
